@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+}
+.hed{
+  display: flex;
+  justify-content: space-around;
+  background-color: #FFFFFF;
+}
+.navigaciya, .dop_inf, .logo_name{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo_name{
+  width: 8%;
+}
+.navigaciya{
+  width: 25%;
+}
+.dop_inf{
+  width: 12%;
+}
+.name{
+  font-size: 2rem;
+}
+.knop_nav{
+  font-size: 1.3rem;
+}
+#logoimg{
+  width: 50px;
+  height: 35px;
+}
+.dik{
+  width: 30px;
+  height: 30px;
+}
+.dik1{
+  width: 35px;
+  height: 30px;
+}
