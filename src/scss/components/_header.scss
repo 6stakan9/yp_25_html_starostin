@@ -1,40 +1,65 @@
 body{
   margin: 0;
+  header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    .logo_name{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 8%;
+      #logo{
+        width: 50px;
+        height: 35px;
+      }
+      .name{
+        margin-left: 3%;
+        font-size: 2rem;
+        font-weight: bold;
+      }
+    }
+    .nav_center{
+      width: 20%;
+      padding-left: 3%;
+      .nav_txt{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+      font-size: 1.3rem;
+      }
+    }
+    .nav_right{
+      align-items: center;
+      display: flex;
+      width: 10%;
+      .nav_thumb{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        align-items: center;
+        #thumb{
+          width: 25px;
+          height: 25px;
+        }
+        #thumb1{
+          width: 30px;
+          height: 25px;
+        }
+      }
+    }
+  }
 }
-.hed{
-  display: flex;
-  justify-content: space-around;
-  background-color: #FFFFFF;
-}
-.navigaciya, .dop_inf, .logo_name{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.logo_name{
-  width: 8%;
-}
-.navigaciya{
-  width: 25%;
-}
-.dop_inf{
-  width: 12%;
-}
-.name{
-  font-size: 2rem;
-}
-.knop_nav{
-  font-size: 1.3rem;
-}
-#logoimg{
-  width: 50px;
-  height: 35px;
-}
-.dik{
-  width: 30px;
-  height: 30px;
-}
-.dik1{
-  width: 35px;
-  height: 30px;
-}
+
+
+
+
+
+
+
