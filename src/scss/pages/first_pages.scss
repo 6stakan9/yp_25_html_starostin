@@ -1,0 +1,43 @@
+main{
+  .section_aside{
+    height: 716px;
+    width: 100%;
+    background-size: 100% 716px;
+    background-image: url("../images/fon_index_1.webp");
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    .inner{
+      background-color: #FFF3E3;
+      width: 643px;
+      height: 443px;
+      margin-right: 3%;
+      .inner_margin{
+        padding: 6%;
+        .subtitle{
+          font-size: 1rem;
+        }
+        .title{
+          font-size: 2.7rem;
+          width: 60%;
+          color: #B88E2F;
+          h3 {
+            margin: 0;
+          }
+        }
+        .desc{
+          font-size: 1.3rem;
+          width: 93%;
+        }
+        button{
+          margin-top: 3%;
+          border: 0;
+          color: white;
+          font-size: 16px;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
