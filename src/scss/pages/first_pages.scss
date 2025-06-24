@@ -19,15 +19,18 @@ main{
         }
         .title{
           font-size: 2.7rem;
-          width: 60%;
+          width: 70%;
           color: #B88E2F;
           h3 {
             margin: 0;
           }
         }
         .desc{
-          font-size: 1.3rem;
-          width: 93%;
+          font-size: 1.2rem;
+          width: 100%;
+          p{
+            margin: 0;
+          }
         }
         button{
           margin-top: 3%;
@@ -38,6 +41,84 @@ main{
           text-transform: uppercase;
         }
       }
+    }
+  }
+  .section_browse{
+    .title_browse{
+      font-size: 2rem;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      margin-top: 4%;
+      margin-bottom: 2%;
+    }
+    .subtitle_browse{
+      font-size: 1.5rem;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 4%;
+    }
+    .content_browse{
+      display: flex;
+      justify-content: space-around;
+      .section_Dining{
+        .img_section_browse{
+          #browse_img{
+            width: 381px;
+            height: 480px;
+            margin-bottom: 3%;
+          }
+        }
+        .name_section_browse{
+          display: flex;
+          justify-content: center;
+          font-size: 1.5rem;
+          font-weight: bold;
+        }
+      }
+      .section_Living{
+        .img_section_browse{
+          #browse_img{
+            width: 381px;
+            height: 480px;
+            margin-bottom: 3%;
+          }
+        }
+        .name_section_browse{
+          display: flex;
+          justify-content: center;
+          font-size: 1.5rem;
+          font-weight: bold;
+        }
+      }
+      .section_Bedroom{
+        .img_section_browse{
+          #browse_img{
+            width: 381px;
+            height: 480px;
+            margin-bottom: 3%;
+          }
+        }
+        .name_section_browse{
+          display: flex;
+          justify-content: center;
+          font-size: 1.5rem;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  .aside_products{
+    .title_products{
+      font-size: 3rem;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      margin-top: 3%;
+      margin-bottom: 2%;
+    }
+    .section_products{
+
     }
   }
 }
