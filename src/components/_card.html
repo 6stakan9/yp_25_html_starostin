@@ -1,7 +1,9 @@
 <div class="section_card">
-  <div class="circle">
+  @@if (isCircle) {
+  <div class="circle" style="background-color: @@color">
     <p>@@circle</p>
   </div>
+  }
   <div class="img_card">
     <img id="img_card_id" src="@@img.webp">
   </div>

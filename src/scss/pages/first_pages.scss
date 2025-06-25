@@ -118,7 +118,120 @@ main{
       margin-bottom: 2%;
     }
     .section_products{
+      justify-content: space-evenly;
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: 10%;
+      margin-left: 10%;
+      gap: 50px;
+    }
+    .btn_show{
+      display: flex;
+      justify-content: center;
+      margin-top: 2%;
+      margin-bottom: 4%;
+    }
+  }
+  .aside_Beautiful_rooms{
+    display: flex;
+    justify-content: space-between;
+    .section_Beautiful{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 5%;
+      .title_Beautiful{
+        font-size: 2.8rem;
+        font-weight: bold;
+        width: 70%;
+        line-height: 1.1;
+        margin-bottom: 2%;
+      }
+      .subtitle_Beautiful{
+        font-size: 1rem;
+        width: 50%;
+        margin-bottom: 3%;
+      }
+      .btn_Explore{
 
+      }
+    }
+    .Inner_Peace{
+
+      .img_inner{
+        #img_Inner_Peace{
+          width: 404px;
+          height: 582px;
+        }
+      }
+      .widget_Inner_Peace{
+        display: flex;
+        align-items: end;
+        .box_desc{
+          width: 217px;
+          height: 130px;
+          display: grid;
+          align-items: center;
+          .box_desc_center{
+
+            margin: 9%;
+            .subtitle_inner{
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              width: 80%;
+              .page_widget_inner{
+                font-size: 1rem;
+              }
+              .line{
+                margin: 0;
+                width: 27px;
+              }
+              .desc_page_widget{
+                font-size: 1rem;
+              }
+            }
+            .title_inner{
+              font-size: 1.8rem;
+              font-weight: bold;
+            }
+          }
+        }
+        .btn_arrow{
+
+        }
+      }
+    }
+    .other_widget{
+
+      .other_img{
+        display: flex;
+        align-content: flex-start;
+
+        #img_Inner_Peace2{
+          width: 372px;
+          height: 486px;
+        }
+        #img_Inner_Peace3{
+          width: auto;
+          height: 486px;
+        }
+      }
+      .carousel{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 30%;
+        margin-top: 4%;
+        #element_carousel_active{
+          height: 27px;
+          width: 27px;
+        }
+        #element_carousel_inactive{
+          height: 11px;
+          width: 11px;
+        }
+      }
     }
   }
 }

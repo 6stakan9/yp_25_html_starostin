@@ -34,7 +34,7 @@
                 "padding-y": "25px",
                 "border-radius": "0px",
                 "title": "Buy now",
-                "color": "var(--primary-color)",
+                "bgcolor": "var(--primary-color)",
                 "font-size":"16px"
                 })
             </div>
@@ -79,20 +79,204 @@
             Our Products
         </div>
         <div class="section_products">
-            <div class="cards">
-                @@include('../components/_card.html', {
-                'img': './assets/images/Syltherine',
-                'circle':'-30%',
-                'color':'var(--circle-red-color)',
-                'name_card': 'Syltherine',
-                'desc_card': 'Stylish cafe chair',
-                'price_card': '2.500.000',
-                'sale_card': '3.500.000',
-                'isSale': true
-                })
+                <div class="cards">
+                    @@include('../components/_card.html', {
+                    'img': './assets/images/Syltherine',
+                    'circle':'-30%',
+                    'color':'var(--circle-red-color)',
+                    'name_card': 'Syltherine',
+                    'desc_card': 'Stylish cafe chair',
+                    'price_card': '2.500.000',
+                    'sale_card': '3.500.000',
+                    'isSale': true,
+                    'isCircle': true
+                    })
+                </div>
+                <div class="cards">
+                    @@include('../components/_card.html', {
+                    'img': './assets/images/Leviosa',
+                    'circle':'-30%',
+                    'color':'var(--circle-red-color)',
+                    'name_card': 'Leviosa',
+                    'desc_card': 'Stylish cafe chair',
+                    'price_card': '2.500.000',
+                    'sale_card': '3.500.000',
+                    'isSale': false,
+                    'isCircle': false
+                    })
+                </div>
+                <div class="cards">
+                    @@include('../components/_card.html', {
+                    'img': './assets/images/Lolito',
+                    'circle':'-50%',
+                    'color':'var(--circle-red-color)',
+                    'name_card': 'Lolito',
+                    'desc_card': 'Stylish cafe chair',
+                    'price_card': '7.000.000',
+                    'sale_card': '14.000.000',
+                    'isSale': true,
+                    'isCircle': true
+                    })
+                </div>
+                <div class="cards">
+                    @@include('../components/_card.html', {
+                    'img': './assets/images/Syltherine',
+                    'circle':'New',
+                    'color':'var(--circle-blue-color)',
+                    'name_card': 'Respira',
+                    'desc_card': 'Stylish cafe chair',
+                    'price_card': '500.000',
+                    'sale_card': '3.500.000',
+                    'isSale': false,
+                    'isCircle': true
+                    })
+                </div>
+                <div class="cards">
+                    @@include('../components/_card.html', {
+                    'img': './assets/images/Grifo',
+                    'circle':'-30%',
+                    'color':'var(--circle-red-color)',
+                    'name_card': 'Grifo',
+                    'desc_card': 'Stylish cafe chair',
+                    'price_card': '1.500.000',
+                    'sale_card': '3.500.000',
+                    'isSale': false,
+                    'isCircle': false
+                    })
+                </div>
+                <div class="cards">
+                    @@include('../components/_card.html', {
+                    'img': './assets/images/Muggo',
+                    'circle':'New',
+                    'color':'var(--circle-blue-color)',
+                    'name_card': 'Muggo',
+                    'desc_card': 'Stylish cafe chair',
+                    'price_card': '150.000',
+                    'sale_card': '3.500.000',
+                    'isSale': false,
+                    'isCircle': true
+                    })
+                </div>
+                <div class="cards">
+                    @@include('../components/_card.html', {
+                    'img': './assets/images/Pingky',
+                    'circle':'-50%',
+                    'color':'var(--circle-red-color)',
+                    'name_card': 'Pingky',
+                    'desc_card': 'Stylish cafe chair',
+                    'price_card': '7.000.000',
+                    'sale_card': '14.000.000',
+                    'isSale': true,
+                    'isCircle': true
+                    })
+                </div>
+                <div class="cards">
+                    @@include('../components/_card.html', {
+                    'img': './assets/images/Syltherine',
+                    'circle':'New',
+                    'color':'var(--circle-blue-color)',
+                    'name_card': 'Potty',
+                    'desc_card': 'Stylish cafe chair',
+                    'price_card': '500.000',
+                    'sale_card': '3.500.000',
+                    'isSale': false,
+                    'isCircle': true
+                    })
+                </div>
             </div>
+        <div class="btn_show">
+            @@include('./_button.html', {
+            "padding-x": "75px",
+            "padding-y": "12px",
+            "border-radius": "0px",
+            "title": "Show More",
+            "bgcolor": "var(--white)",
+            "font-size":"16px",
+            "borcolor": "2px var(--primary-color)",
+            "colortxt": "var(--primary-color)"
+            })
         </div>
     </section>
+    <aside class="aside_Beautiful_rooms">
+        <section class="section_Beautiful">
+            <div class="title_Beautiful">
+                50+ Beautiful rooms inspiration
+            </div>
+            <div class="subtitle_Beautiful">
+                Our designer already made a lot of beautiful prototipe of rooms that inspire you
+            </div>
+            <div class="btn_Explore">
+                @@include('./_button.html', {
+                "padding-x": "36px",
+                "padding-y": "12px",
+                "border-radius": "0px",
+                "title": "Explore More",
+                "bgcolor": "var(--primary-color)",
+                "font-size":"1rem",
+                "borcolor": "2px var(--primary-color)",
+                "colortxt": "var(--card-color)"
+                })
+            </div>
+
+        </section>
+        <section class="Inner_Peace">
+            <div class="img_inner">
+                <img id="img_Inner_Peace" src="./assets/images/Inner_Peace.webp">
+            </div>
+            <div class="widget_Inner_Peace">
+                <div class="box_desc">
+                    <div class="box_desc_center">
+                        <div class="subtitle_inner">
+                            <div class="page_widget_inner">
+                                01
+                            </div>
+                            <div class="line"> <hr> </div>
+                            <div class="desc_page_widget">
+                                Bed Room
+                            </div>
+                        </div>
+                        <div class="title_inner">
+                            Inner Peace
+                        </div>
+                    </div>
+                </div>
+                <div class="btn_arrow">
+                    @@include('./_button.html', {
+                    "padding-x": "12px",
+                    "padding-y": "12px",
+                    "border-radius": "0px",
+                    "title": "→",
+                    "bgcolor": "var(--primary-color)",
+                    "font-size": "2rem",
+                    "colortxt": "var(--card-color)",
+                    "borcolor":"var(--primary-color)",
+                    "border": "1px",
+                    })
+                </div>
+            </div>
+        </section>
+        <section class="other_widget">
+            <div class="other_img">
+                <img id="img_Inner_Peace2" src="./assets/images/Inner_Peace_2.webp">
+                <img id="img_Inner_Peace3" src="./assets/images/Inner_Peace_3.webp">
+            </div>
+            <div class="carousel">
+                <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle opacity="0.7" cx="13.5" cy="13.5" r="13" stroke="#B88E2F"/>
+                    <circle cx="13.5" cy="13.5" r="5" fill="#B88E2F" stroke="#B88E2F"/>
+                </svg>
+                <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="5.5" cy="5.5" r="5.5" fill="#D8D8D8"/>
+                </svg>
+                <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="5.5" cy="5.5" r="5.5" fill="#D8D8D8"/>
+                </svg>
+                <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="5.5" cy="5.5" r="5.5" fill="#D8D8D8"/>
+                </svg>
+            </div>
+        </section>
+    </aside>
 </main>
 
 
