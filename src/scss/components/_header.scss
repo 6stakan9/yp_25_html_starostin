@@ -22,20 +22,23 @@ body{
       }
     }
     .nav_center{
-      width: 20%;
-      padding-left: 3%;
+      width: 30%;
+      padding-left: 10%;
       .nav_txt{
       width: 100%;
       display: flex;
       justify-content: space-between;
       padding: 0;
       font-size: 1.3rem;
+        p{
+          cursor: pointer;
+        }
       }
     }
     .nav_right{
       align-items: center;
       display: flex;
-      width: 10%;
+      width: 15%;
       .nav_thumb{
         width: 100%;
         display: flex;
@@ -45,10 +48,12 @@ body{
         #thumb{
           width: 25px;
           height: 25px;
+          cursor: pointer;
         }
         #thumb1{
           width: 30px;
           height: 25px;
+          cursor: pointer;
         }
       }
     }
