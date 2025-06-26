@@ -1,0 +1,37 @@
+.page_shop{
+  background-image: url("../images/fon_shop.webp");
+  background-size: 100% 400px;
+  height: 400px;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  .page_shop_center{
+    .logo_page{
+      display: flex;
+      justify-content: center;
+      #logo_page{
+        width: 75px;
+        height: 52px;
+      }
+    }
+    .title_shop{
+      h1{
+        font-size: 3rem;
+      }
+    }
+    .sub_shop{
+      display: flex;
+      align-items: center;
+      h5{
+        font-size: 1.2rem;
+        font-weight: bold;
+      }
+      #arrow_next_shop{
+        font-size: 1.5rem;
+        margin-left: 4%;
+        margin-right: 4%;
+      }
+    }
+  }
+}

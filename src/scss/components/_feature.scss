@@ -1,0 +1,23 @@
+.features{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3%;
+  background-color: var(--panel-after-header);
+  #title_f{
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  .feature_product{
+    display: flex;
+    align-items: center;
+    .icon_feature{
+      margin-right: 2%;
+    }
+  }
+  .desc_feature{
+    .sub_feature{
+      width: 267px;
+    }
+  }
+}
