@@ -1,0 +1,126 @@
+main{
+  .product_page{
+    justify-content: space-between;
+    display: flex;
+    margin-right: 7%;
+    margin-left: 7%;
+    margin-bottom: 4%;
+    margin-top: 3%;
+    .title_view_section{
+      width: 15%;
+      .title_page{
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 3%;
+      }
+      .view_page{
+        border-bottom: var(--txt-grey) solid 3px;
+        width: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .view_page_btn{
+          background-color: var(--white);
+          color: var(--txt-grey);
+          border: none;
+          padding: 2%;
+          font-size: 1.2rem;
+          cursor: pointer;
+        }
+      }
+    }
+    .cart_sofa{
+      #comp_page_sofa{
+        width: 280px;
+        height: 187px;
+        border-radius: 20px;
+        margin-bottom: 2%;
+      }
+      .title_sofa{
+        font-weight: bold;
+        margin-bottom: 2%;
+        p{
+          font-size: 1.4rem;
+        }
+      }
+      .price_sofa{
+        font-size: 1.2rem;
+        margin-bottom: 2%;
+      }
+      .estimation_product{
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        margin-bottom: 2%;
+        .estimation{
+          font-weight: bold;
+          margin-right: 2%;
+        }
+        .stars{
+          display: flex;
+          align-items: center;
+        }
+        .Review{
+          font-size: 0.8rem;
+          color: var(--txt-grey);
+          height: 30px;
+          border-left: var(--txt-grey) 2px solid;
+          padding-left: 3%;
+        }
+      }
+    }
+    .add{
+      .title_add{
+        font-weight: bold;
+        margin-bottom: 3%;
+        p{
+          font-size: 1.4rem;
+        }
+      }
+      .btn_add{
+        color: var(--white);
+        background-color: var(--primary-color);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 4%;
+        width: 300px;
+        border-radius: 10px;
+      }
+    }
+  }
+  .full_table{
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 4%;
+    .title_table{
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .border_center_table{
+      border-right: var(--txt-grey) solid 1px;
+      border-left: var(--txt-grey) solid 1px;
+    }
+    .padd_table_center{
+      padding-bottom: 5%;
+      border-right: var(--txt-grey) solid 1px;
+      border-left: var(--txt-grey) solid 1px;
+    }
+    td{
+      font-size: 1.2rem;
+      width: 400px;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      padding-right: 3%;
+      padding-left: 3%;
+    }
+    .padd_table{
+      padding-bottom: 5%;
+    }
+    table{
+      border-collapse: collapse;
+      border-top: var(--txt-grey) solid 1px;
+    }
+  }
+}

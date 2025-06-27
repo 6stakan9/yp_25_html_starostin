@@ -1,0 +1,109 @@
+main{
+  .payment_page{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 7%;
+    margin-left: 7%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    .payment{
+      .payment_table{
+        width: 100%;
+        font-size: 1.2rem;
+        border-collapse: collapse;
+        .up_lvl_table{
+          background-color: var(--panel-after-header);
+          font-weight: bold;
+          padding-top: 2%;
+          padding-bottom: 2%;
+          width: 160px;
+        }
+        .up_lvl_table_b{
+          background-color: var(--panel-after-header);
+          width: 40px;
+        }
+        .bold_txt_table{
+          font-weight: bold;
+          width: 160px;
+          padding-top: 5%;
+        }
+        .grey_txt_table{
+          color: var(--txt-grey);
+          width: 160px;
+          padding-top: 5%;
+        }
+        .padd_table_top{
+          padding-top: 5%;
+        }
+        #cart_sofa{
+          width: 150px;
+          height: 150px;
+        }
+        .Quantity{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 160px;
+          .Quantity_box{
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            border: 3px solid var(--txt-grey);
+            align-items: center;
+            display: flex;
+            justify-content: center;
+          }
+        }
+        #basket{
+          cursor: pointer;
+        }
+      }
+    }
+    .total_payment{
+      width: 15%;
+      height: auto;
+      background-color: var(--panel-after-header);
+      padding: 4%;
+      .title_pay{
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+        margin-bottom: 15%;
+      }
+      .Subtotal_price{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 10%;
+        .price_product{
+          font-weight: bold;
+          display: flex;
+          justify-content: center;
+          font-size: 1.2rem;
+          color: var(--txt-grey);
+        }
+        .price_all{
+          font-weight: bold;
+          display: flex;
+          justify-content: center;
+          font-size: 1.4rem;
+          color: var(--primary-color);
+        }
+      }
+      .pay{
+        padding-top: 10%;
+        display: flex;
+        justify-content: center;
+        .check_out{
+          font-size: 1.4rem;
+          width: 250px;
+          height: 70px;
+          background-color: transparent;
+          border-radius: 15px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

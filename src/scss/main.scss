@@ -16,11 +16,14 @@
 @use 'components/card';
 @use 'components/feature';
 @use 'components/page_after_header';
-@use 'components/Single_Product';
+@use 'pages/Single_Product';
+@use 'pages/Product_Comparison';
+@use 'pages/cart';
+@use 'pages/cart';
 
 // ==== 5. Pages ====
-@use 'pages/first_pages.scss';
-@use 'pages/shop.scss';
+@use 'pages/first_pages';
+@use 'pages/shop';
 
 
 body {

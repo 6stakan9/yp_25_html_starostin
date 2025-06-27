@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <title>Cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+@@include('../components/_header.html')
+<main>
+    @@include('../components/_page_after_header.html',{
+    'title': 'Product Cart',
+    'subtitle': 'Cart'})
+    <aside class="payment_page">
+        <aside class="payment">
+            <table class="payment_table">
+                <tr>
+                    <td class="up_lvl_table"></td>
+                    <td class="up_lvl_table">Product</td>
+                    <td class="up_lvl_table">Price</td>
+                    <td class="up_lvl_table">Quantity</td>
+                    <td class="up_lvl_table">Subtotal</td>
+                    <td class="up_lvl_table_b"></td>
+                </tr>
+                <tr>
+                    <td class="padd_table_top">
+                        <img id="cart_sofa" src="./assets/images/cart_sofa.webp">
+                    </td>
+                    <td class="grey_txt_table">Asgaard sofa</td>
+                    <td class="grey_txt_table">Rs. 250,000.00</td>
+                    <td class="padd_table_top">
+                        <div class="Quantity">
+                            <div class="Quantity_box">
+                                <p>1</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="bold_txt_table">Rs. 250,000.00</td>
+                    <td class="padd_table_top">
+                        <svg id="basket" width="28" height="25" viewBox="0 0 28 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_d_117_1295)">
+                                <path d="M23.625 4H20.125V1.8125C20.125 0.847266 19.3402 0.0625 18.375 0.0625H9.625C8.65977 0.0625 7.875 0.847266 7.875 1.8125V4H4.375C3.89102 4 3.5 4.39102 3.5 4.875V5.75C3.5 5.87031 3.59844 5.96875 3.71875 5.96875H5.37031L6.0457 20.2695C6.08945 21.202 6.86055 21.9375 7.79297 21.9375H20.207C21.1422 21.9375 21.9105 21.2047 21.9543 20.2695L22.6297 5.96875H24.2812C24.4016 5.96875 24.5 5.87031 24.5 5.75V4.875C24.5 4.39102 24.109 4 23.625 4ZM18.1562 4H9.84375V2.03125H18.1562V4Z" fill="#B88E2F"/>
+                            </g>
+                            <defs>
+                                <filter id="filter0_d_117_1295" x="-0.5" y="0.0625" width="29" height="29.875" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                    <feOffset dy="4"/>
+                                    <feGaussianBlur stdDeviation="2"/>
+                                    <feComposite in2="hardAlpha" operator="out"/>
+                                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_117_1295"/>
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_117_1295" result="shape"/>
+                                </filter>
+                            </defs>
+                        </svg>
+                    </td>
+                </tr>
+            </table>
+        </aside>
+        <aside class="total_payment">
+            <div class="title_pay">
+                <h1>Cart Totals</h1>
+            </div>
+            <section class="Subtotal_price">
+                <p>Subtotal</p>
+                <p class="price_product">Rs. 250,000.00</p>
+            </section>
+            <section class="Subtotal_price">
+                <p>Total</p>
+                <p class="price_all">Rs. 250,000.00</p>
+            </section>
+            <div class="pay">
+                <a href="Checkout.html">
+                    <button class="check_out">
+                        Check Out
+                    </button>
+                </a>
+            </div>
+        </aside>
+    </aside>
+    @@include('../components/_feature.html')
+</main>
+@@include('../components/_footer.html')
+</body>
+</html>
