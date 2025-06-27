@@ -1,183 +1,245 @@
-section {
-  p {
-    margin: 0;
-  }
-  .title{
-    font-size: 36px;
-    font-weight: bold;
-  }
-  .namesname{
+main{
+  .checkout{
+    margin-left: 7%;
+    margin-right: 7%;
     display: flex;
-    gap: 31px;
-    .firstname{
-      display: flex;
-      flex-direction: column;
+    justify-content: space-between;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    .Billing {
+      p {
+        margin: 0;
+      }
+      .title_Billing{
+        font-size: 2rem;
+        font-weight: bold;
+      }
       span{
-        font-size: 16px;
+        font-size: 1.2rem;
       }
-      #firstname{
-        width: 211px;
-        height: 75px;
-        border-radius: 10px;
-        border: 1px solid;
+      .names{
+        display: flex;
+        justify-content: space-between;
+        .first_name_form{
+          display: flex;
+          flex-direction: column;
+          #first_name{
+            width: 211px;
+            height: 75px;
+            border-radius: 10px;
+            border: 1px solid;
+          }
+        }
+        .last_name_form{
+          display: flex;
+          flex-direction: column;
+          #last_name{
+            width: 211px;
+            height: 75px;
+            border-radius: 10px;
+            border: 1px solid;
+          }
+        }
+      }
+      .company_name_form{
+        display: flex;
+        flex-direction: column;
+        #company_name{
+          width: 453px;
+          height: 75px;
+          border-radius: 10px;
+          border: 1px solid;
+        }
+      }
+      .country_form{
+        display: flex;
+        flex-direction: column;
+        .arrow_down_form{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid;
+          width: 445px;
+          height: 75px;
+          border-radius: 10px;
+          padding: 5px;
+          svg{
+            margin-right: 20px;
+          }
+        }
+        #country{
+          width: 350px;
+          height: 70px;
+          border-radius: 10px;
+          border: none;
+          font-size: 1.2px;
+        }
+      }
+      .street_form{
+        display: flex;
+        flex-direction: column;
+        #street{
+          width: 453px;
+          height: 75px;
+          border-radius: 10px;
+          border: 1px solid;
+        }
+      }
+      .Town_form{
+        display: flex;
+        flex-direction: column;
+        #Town{
+          width: 453px;
+          height: 75px;
+          border-radius: 10px;
+          border: 1px solid;
+        }
+      }
+      .Province_form{
+        display: flex;
+        flex-direction: column;
+        .arrow_down_form{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid;
+          width: 445px;
+          height: 75px;
+          border-radius: 10px;
+          padding: 5px;
+        }
+        #Province{
+          width: 350px;
+          height: 70px;
+          border-radius: 10px;
+          border: none;
+          font-size: 1.2rem;
+        }
+      }
+      .zip_code_form{
+        display: flex;
+        flex-direction: column;
+        #zip_code{
+          width: 453px;
+          height: 75px;
+          border-radius: 10px;
+          border: 1px solid;
+        }
+      }
+      .Phone_form{
+        display: flex;
+        flex-direction: column;
+        #Phone{
+          width: 453px;
+          height: 75px;
+          border-radius: 10px;
+          border: 1px solid;
+        }
+      }
+      .Email_form{
+        display: flex;
+        flex-direction: column;
+        #Email{
+          width: 453px;
+          height: 75px;
+          border-radius: 10px;
+          border: 1px solid;
+        }
+      }
+      .Additional_inf_form{
+        display: flex;
+        flex-direction: column;
+        #Additional_inf{
+          width: 423px;
+          height: 75px;
+          border-radius: 10px;
+          border: 1px solid;
+          padding-left: 30px;
+          font-size: 1.2rem;
+        }
       }
     }
-    .lastname{
-      display: flex;
-      flex-direction: column;
-      span{
-        font-size: 16px;
+    .product{
+      p {
+        margin: 0;
+        font-size: 1.2rem;
       }
-      #lastname{
-        width: 211px;
-        height: 75px;
-        border-radius: 10px;
-        border: 1px solid;
+      width: 40%;
+      .title{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2%;
+        h1{
+          font-size: 1.6rem;
+        }
       }
-    }
-  }
-  .companyname{
-    display: flex;
-    flex-direction: column;
-    span{
-      font-size: 16px;
-    }
-    #companyname{
-      width: 453px;
-      height: 75px;
-      border-radius: 10px;
-      border: 1px solid;
-    }
-  }
-  .country{
-    display: flex;
-    flex-direction: column;
-    span{
-      font-size: 16px;
-    }
-    .btnquanty{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border: 1px solid;
-      width: 445px;
-      height: 75px;
-      border-radius: 10px;
-      padding: 5px;
-      svg{
-        margin-right: 20px;
+      .quantity_price{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2%;
+        .quantity{
+          display: flex;
+          font-size: 1.2rem;
+          gap: 10px;
+          .product_quantity{
+            color: var(--txt-grey);
+          }
+        }
       }
-    }
-    #country{
-      width: 350px;
-      height: 70px;
-      border-radius: 10px;
-      border: none;
-    }
-  }
-  .srteet{
-    display: flex;
-    flex-direction: column;
-    span{
-      font-size: 16px;
-    }
-    #srteet{
-      width: 453px;
-      height: 75px;
-      border-radius: 10px;
-      border: 1px solid;
-    }
-  }
-  .Town{
-    display: flex;
-    flex-direction: column;
-    span{
-      font-size: 16px;
-    }
-    #Town{
-      width: 453px;
-      height: 75px;
-      border-radius: 10px;
-      border: 1px solid;
-    }
-  }
-  .Province{
-    display: flex;
-    flex-direction: column;
-    span{
-      font-size: 16px;
-    }
-    .btnquanty{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border: 1px solid;
-      width: 445px;
-      height: 75px;
-      border-radius: 10px;
-      padding: 5px;
-      svg{
-        margin-right: 20px;
+      .subtotal_price{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        margin-bottom: 2%;
       }
-    }
-    #Province{
-      width: 350px;
-      height: 70px;
-      border-radius: 10px;
-      border: none;
-    }
-  }
-  .code{
-    display: flex;
-    flex-direction: column;
-    span{
-      font-size: 16px;
-    }
-    #code{
-      width: 453px;
-      height: 75px;
-      border-radius: 10px;
-      border: 1px solid;
-    }
-  }
-  .Phone{
-    display: flex;
-    flex-direction: column;
-    span{
-      font-size: 16px;
-    }
-    #Phone{
-      width: 453px;
-      height: 75px;
-      border-radius: 10px;
-      border: 1px solid;
-    }
-  }
-  .Email{
-    display: flex;
-    flex-direction: column;
-    span{
-      font-size: 16px;
-    }
-    #Email{
-      width: 453px;
-      height: 75px;
-      border-radius: 10px;
-      border: 1px solid;
-    }
-  }
-  .Additional{
-    display: flex;
-    flex-direction: column;
-    span{
-      font-size: 16px;
-    }
-    #Additional{
-      width: 423px;
-      height: 75px;
-      border-radius: 10px;
-      border: 1px solid;
-      padding-left: 30px;
+      .total_price{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2%;
+        .total{
+          font-size: 1.2rem;
+        }
+        .t_price{
+          font-size: 1.6rem;
+          font-weight: bold;
+          color: var(--primary-color);
+        }
+      }
+      .approval{
+        padding-top: 2%;
+        border-top: var(--txt-grey) 1px solid;
+        font-size: 1.2rem;
+        .name_desc{
+          display: flex;
+          align-items: center;
+          gap: 1%;
+          margin-bottom: 2%;
+        }
+        .desc_approval_grey{
+          margin-bottom: 2%;
+          text-align: justify;
+          color: var(--txt-grey);
+        }
+        .name_desc{
+          .circle{
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            border: 1px solid var(--txt-grey);
+          }
+        }
+        .approval_name_grey{
+          color: var(--txt-grey);
+        }
+        .desc_approval{
+          text-align: justify;
+          margin-bottom: 3%;
+        }
+        .btn_place_order{
+          display: flex;
+          justify-content: center;
+        }
+      }
     }
   }
 }

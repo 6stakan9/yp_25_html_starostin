@@ -17,66 +17,151 @@
     @@include('../components/_page_after_header.html',{
     'title': 'Checkout',
     'subtitle': 'Checkout'})
-    <section>
-        <section class="forms">
-            <div class="title">Billing details</div>
-            <div class="namesname">
-                <div class="firstname">
-                    <span>First name</span>
-                    <input type="text" id="firstname">
+    <aside class="checkout">
+        <aside class="Billing">
+            <section class="forms">
+                <div class="title_Billing">Billing details</div>
+                <div class="names">
+                    <div class="first_name_form">
+                        <span>First name</span>
+                        <input type="text" id="first_name">
+                    </div>
+                    <div class="last_name_form">
+                        <span>Last Name</span>
+                        <input type="text" id="last_name">
+                    </div>
                 </div>
-                <div class="lastname">
-                    <span>Last Name</span>
-                    <input type="text" id="lastname">
+                <div class="company_name_form">
+                    <span>Company Name (Optional)</span>
+                    <input type="text" id="company_name">
                 </div>
-            </div>
-            <div class="companyname">
-                <span>Company Name (Optional)</span>
-                <input type="text" id="companyname">
-            </div>
-            <div class="country">
-                <span>Country / Region</span>
-                <div class="btnquanty">
-                    <input type="text" id="country" placeholder="Sri Lanka ">
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5 6L10 11L15 6L17 7L10 14L3 7L5 6Z" fill="black"/>
+                <div class="country_form">
+                    <span>Country / Region</span>
+                    <div class="arrow_down_form">
+                        <input type="text" id="country" placeholder="Sri Lanka ">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 6L10 11L15 6L17 7L10 14L3 7L5 6Z" fill="black"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="street_form">
+                    <span>Street address</span>
+                    <input type="text" id="street">
+                </div>
+                <div class="Town_form">
+                    <span>Town / City</span>
+                    <input type="text" id="Town">
+                </div>
+                <div class="Province_form">
+                    <span>Province</span>
+                    <div class="arrow_down_form">
+                        <input type="text" id="Province" placeholder="Western Province">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 6L10 11L15 6L17 7L10 14L3 7L5 6Z" fill="black"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="zip_code_form">
+                    <span>ZIP code</span>
+                    <input type="text" id="zip_code">
+                </div>
+                <div class="Phone_form">
+                    <span>Phone</span>
+                    <input type="text" id="Phone">
+                </div>
+                <div class="Email_form">
+                    <span>Email address</span>
+                    <input type="email" id="Email">
+                </div>
+                <div class="Additional_inf_form">
+                    <span>Additional</span>
+                    <input type="text" id="Additional_inf" placeholder="Additional information">
+                </div>
+            </section>
+        </aside>
+        <aside class="product">
+            <section class="title">
+                <h1>Product</h1>
+                <h1>Subtotal</h1>
+            </section>
+            <section class="quantity_price">
+                <div class="quantity">
+                    <div class="product_quantity">
+                        <p>Asgaard sofa</p>
+                    </div>
+                    <div class="x">
+                        <p>x</p>
+                    </div>
+                    <div class="numbers">
+                        <p>1</p>
+                    </div>
+                </div>
+                <div class="q_price">
+                    <p>Rs. 250,000.00</p>
+                </div>
+            </section>
+            <section class="subtotal_price">
+                <div class="subtotal">
+                    <p>Subtotal</p>
+                </div>
+                <div class="q_price">
+                    <p>Rs. 250,000.00</p>
+                </div>
+            </section>
+            <section class="total_price">
+                <div class="total">
+                    <p>Total</p>
+                </div>
+                <div class="t_price">
+                    <p>Rs. 250,000.00</p>
+                </div>
+            </section>
+            <section class="approval">
+                <div class="name_desc">
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="7" cy="7" r="7" fill="black"/>
                     </svg>
+                    <div class="approval_name">
+                        <p>Direct Bank Transfer</p>
+                    </div>
                 </div>
-            </div>
-            <div class="srteet">
-                <span>Street address</span>
-                <input type="text" id="srteet">
-            </div>
-            <div class="Town">
-                <span>Town / City</span>
-                <input type="text" id="Town">
-            </div>
-            <div class="Province">
-                <span>Province</span>
-                <div class="btnquanty">
-                    <input type="text" id="Province" placeholder="Western Province">
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5 6L10 11L15 6L17 7L10 14L3 7L5 6Z" fill="black"/>
-                    </svg>
+                <div class="desc_approval_grey">
+                    Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.
                 </div>
-            </div>
-            <div class="code">
-                <span>ZIP code</span>
-                <input type="text" id="code">
-            </div>
-            <div class="Phone">
-                <span>Phone</span>
-                <input type="text" id="Phone">
-            </div>
-            <div class="Email">
-                <span>Email address</span>
-                <input type="email" id="Email">
-            </div>
-            <div class="Additional">
-                <span>Additional </span>
-                <input type="text" id="Additional" placeholder="Additional information">
-            </div>
-        </section>
+                <div class="name_desc">
+                    <div class="circle">
+                    </div>
+                    <div class="approval_name_grey">
+                        <p>Direct Bank Transfer</p>
+                    </div>
+                </div>
+                <div class="name_desc">
+                    <div class="circle">
+                    </div>
+                    <div class="approval_name_grey">
+                        <p>Cash On Delivery</p>
+                    </div>
+                </div>
+                <div class="desc_approval">
+                    <p>Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our privacy policy.</p>
+                </div>
+                <div class="btn_place_order">
+                    @@include('./_button.html', {
+                    "padding-x": "120px",
+                    "padding-y": "25px",
+                    "border-radius": "20px",
+                    "title": "Place order",
+                    "bgcolor": "transparent",
+                    "font_size":"1.2rem",
+                    "borcolor": "1px var(--black)",
+                    "colortxt": "var(--black)",
+                    })
+                </div>
+            </section>
+        </aside>
+
+
+    </aside>
     @@include('../components/_feature.html')
 </main>
 @@include('../components/_footer.html')
